@@ -110,6 +110,9 @@ if uploaded_file is not None:
     pil_image = Image.open(uploaded_file).convert("RGB")
     car_image = np.array(pil_image)
 
+
+
+
     st.subheader("Uploaded Image")
     st.image(car_image, width="stretch")
 
@@ -141,4 +144,4 @@ if uploaded_file is not None:
                 st.markdown("## `" + plate_number + "`")
 else:
     st.info("Upload an image to get started.")
-    
+
