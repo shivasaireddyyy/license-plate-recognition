@@ -1,0 +1,6 @@
+streamlit
+scikit-image
+scikit-learn
+numpy
+joblib
+pillow
